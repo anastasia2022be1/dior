@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
+  <title>GRIS DIOR</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -20,8 +20,8 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <a href="#" class="logo">
-          <img src="images/logo.svg" alt="" />
+        <a class="logo" href="#">
+          <img src="images/logo.svg" alt="logo" />
         </a>
         <h3 class="header__title">LA COLLECTION PRIVÉE CHRISTIAN DIOR</h3>
         <nav class="menu">
@@ -46,12 +46,12 @@
         <ul class="user-nav">
           <li class="user-nav__item">
             <a href="#" class="user-nav__link">
-              <img src="images/favorites.svg" alt="">
+              <img class="user-nav__icon" src="images/favorites.svg" alt="favorites">
             </a>
           </li>
           <li class="user-nav__item">
             <a href="#" class="user-nav__link">
-              <img src="images/card.svg" alt="">
+              <img class="user-nav__icon" src="images/card.svg" alt="">
             </a>
           </li>
         </ul>
@@ -67,32 +67,60 @@
         <!-- Slides -->
         <div class="swiper-slide">
           <div class="top-slide">
-            <div class="top-slide__inner">
-              <img src="images/slider-top/slider-1.jpg" alt="">
+            <div class="container">
+              <div class="top-slide__inner">
+                <img src="images/slider-top/slider-1.jpg" alt="">
 
-              <div class="top-slide__content">
-                <h1 class="top-slide__title">GRIS DIOR</h1>
-                <p class="top-slide__subtitle">
-                  Fragrance
-                </p>
-                <p class="top-slide__text">
-                  With Gris Dior you dare to reveal your most surprising, mysterious and unexpected facets.
-                </p>
+                <div class="top-slide__content">
+                  <h1 class="top-slide__title">GRIS DIOR</h1>
+                  <p class="top-slide__subtitle">
+                    Fragrance
+                  </p>
+                  <p class="top-slide__text">
+                    With Gris Dior you dare to reveal your most surprising, mysterious and unexpected facets.
+                  </p>
 
-                <a href="#" class="top-slide__btn">
-                  DISCOVER
-                </a>
+                  <a href="#" class="top-slide__btn">
+                    DISCOVER
+                  </a>
+                </div>
+                <img src="images/slider-top/slider-2.jpg" alt="">
               </div>
-              <img src="images/slider-top/slider-2.jpg" alt="">
             </div>
           </div>
         </div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">
+          <div class="top-slide" style="background-image: url(images/slider-top/slide-bg-2.jpg);">
+            <div class="container">
+              <div class="top-slide__inner">
+                <a href="#" class="top-slide__btn">
+                  YOUR NEW EXPERIENCE
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="top-slide" style="background-image: url(images/slider-top/slide-bg-3.jpg);">
+            <div class="container">
+              <div class="top-slide__inner">
+                <a href="#" class="top-slide__btn">
+                  YOUR NEW EXPERIENCE
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="container container-arrow">
+          <div class="swiper-button-prev">
+            <img src="images/arrow-left.svg" alt="arrow-left">
+          </div>
+          <div class="swiper-button-next">
+            <img src="images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+
 
       </div>
   </section>
