@@ -1,0 +1,36 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 1.4;
+    color: #1b1b1b;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
