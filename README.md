@@ -43,6 +43,10 @@ cd your-repo-name
 
 Alternatively, you can use Live Server in VSCode for a better experience.
 
+## Deploy
+
+[GRIS DIOR](https://anastasia2022be1.github.io/dior/)
+
 ## External Resources
 
 - [Google Fonts](https://fonts.google.com/)
